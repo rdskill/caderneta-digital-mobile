@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#236B8E"
+    android:orientation="vertical" >
+
+    <TextView
+        android:textSize="20dp" 
+        android:id="@+id/bemVindoAluno"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#FFFFFF" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_weight="1.9"
+        android:text="" />
+
+    <Button
+        android:id="@+id/btnVisualizarNotificacoes"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Notificações"
+        android:textSize="20dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_weight="0.1"
+        android:text="" />
+
+    <Button
+        android:id="@+id/btnVisualizarFrequenciaNotas"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Frequência e Notas"
+        android:textSize="20dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_weight="2.4"
+        android:text="" />
+
+</LinearLayout>

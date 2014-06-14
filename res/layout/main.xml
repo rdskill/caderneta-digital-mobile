@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/fundoad"
+    android:orientation="vertical" >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_weight="2.4"
+        android:text="" />
+
+    <TextView
+        android:id="@+id/txtLogin"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Escolha o seu tipo de usuário"
+        android:textSize="20dp"
+        android:gravity="center"
+        android:textColor="#FFFFFF" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_weight="0.3"
+        android:text="" />
+
+    <Button
+        android:id="@+id/btLoginAlunoMain"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:text="Aluno" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_weight="0.1"
+        android:text="" />
+
+    <Button
+        android:id="@+id/btLoginProfessorMain"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Professor"
+        android:textSize="20dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_weight="2.6"
+        android:text="" />
+
+</LinearLayout>

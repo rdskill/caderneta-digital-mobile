@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="#236B8E"
+    android:padding="5dp" >
+
+    <TextView
+        android:id="@+id/nomesAlunosChamada"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:gravity="left"
+        android:textColor="#ffffff"
+        android:textSize="16dp" />
+
+    <ToggleButton
+        android:id="@+id/toggleChamada"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/nomesAlunosChamada"
+        android:layout_alignTop="@+id/nomesAlunosChamada"
+        android:gravity="right"
+        android:textOff="Ausente"
+        android:textOn="Presente" />
+
+</RelativeLayout>

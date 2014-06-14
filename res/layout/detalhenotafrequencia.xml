@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/folhadecaderno"
+    android:orientation="vertical" >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_weight="4.5"
+        android:text="" />
+
+    <TextView        
+        android:layout_gravity="center"
+        android:layout_marginLeft="18dp"
+        android:id="@+id/nomeMateria"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Matéria"
+        android:textColor="#000000"
+        android:textSize="18dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_weight="5.0"
+        android:text="" />
+
+    <TextView
+        android:layout_marginLeft="40dp"
+        android:id="@+id/notaPrimeiroBimestre"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#000000"
+        android:textSize="22dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_weight="0.5"
+        android:text="" />
+
+    <TextView
+        android:layout_marginLeft="40dp"
+        android:id="@+id/notaSegundoBimestre"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#000000"
+        android:textSize="22dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_weight="0.5"
+        android:text="" />
+
+    <TextView
+        android:layout_marginLeft="40dp"
+        android:id="@+id/notaExame"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#000000"
+        android:textSize="22dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_weight="0.5"
+        android:text="" />
+
+    <TextView
+        android:layout_marginLeft="40dp"
+        android:id="@+id/quantidadeFalta"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#000000"
+        android:textSize="22dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_weight="0.5"
+        android:text="" />
+
+    <TextView
+        android:layout_marginLeft="40dp"
+        android:id="@+id/porcentagemFrequencia"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#000000"
+        android:textSize="22dp" />
+    
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_weight="36"
+        android:text="" />
+
+</LinearLayout>

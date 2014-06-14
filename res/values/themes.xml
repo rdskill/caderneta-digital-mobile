@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Imagem de fundo da tela do listview -->
+    <style name="TelaBackground" parent="android:Theme">
+        <item name="android:windowBackground">@drawable/fundoad</item>
+        <item name="android:windowNoTitle">true</item> 
+    </style>
+    <style name="TelaDetalhes" parent="android:Theme">
+        <item name="android:windowBackground">@drawable/folhadecaderno</item>
+        <item name="android:windowNoTitle">true</item> 
+    </style>
+</resources>

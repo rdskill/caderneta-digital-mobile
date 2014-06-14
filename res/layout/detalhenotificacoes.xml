@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#ffffff"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/tituloNotificacao"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Titulo"
+        android:background="#236B8E"
+        android:textColor="#ffffff"
+        android:textSize="28dp" />
+    
+    <TextView
+        android:gravity="right"
+        android:id="@+id/dataNotificacao"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Data Not"
+        android:background="#236B8E"
+        android:textColor="#ffffff" />
+
+    <TextView
+        android:id="@+id/conteudoNotificacao"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Conteudo"
+        android:textColor="#000000"
+        android:background="#ffffff"
+        android:textSize="16dp" />
+
+    <TextView
+        android:id="@+id/dataEventoNotificacao"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Data Ev"
+        android:textColor="#000000"
+        android:background="#ffffff" />
+
+</LinearLayout>
